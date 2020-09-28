@@ -1,0 +1,1655 @@
+/*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+abbr[data-original-title], abbr[title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+dt {
+  font-weight: 700;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+blockquote {
+  margin: 0 0 1rem;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+b, strong {
+  font-weight: bolder;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+code, kbd, pre, samp {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-size: 1em;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+figure {
+  margin: 0 0 1rem;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+caption {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+th {
+  text-align: inherit;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+button {
+  border-radius: 0;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+button, input {
+  overflow: visible;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+select {
+  word-wrap: normal;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+input[type=date], input[type=datetime-local], input[type=month], input[type=time] {
+  -webkit-appearance: listbox;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[type=search] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+output {
+  display: inline-block;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+template {
+  display: none;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/dist/libs/_bootstrap-reboot.min.scss */
+[hidden] {
+  display: none !important;
+}
+
+/* line 6, ../../../../../Desktop/my web page/src/sass/style.sass */
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/style.sass */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 14, ../../../../../Desktop/my web page/src/sass/style.sass */
+.divider {
+  height: 3px;
+  width: 60px;
+  background-color: #ffa601;
+  margin: 25px auto 0 auto;
+}
+
+/* line 19, ../../../../../Desktop/my web page/src/sass/style.sass */
+.mobile {
+  width: 17px;
+}
+
+/* line 22, ../../../../../Desktop/my web page/src/sass/style.sass */
+.we {
+  height: 280px;
+  width: 280px;
+}
+
+/* line 25, ../../../../../Desktop/my web page/src/sass/style.sass */
+.wer {
+  height: 300px;
+  width: 280px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_promo.sass */
+.promo {
+  min-height: 100vh;
+  position: relative;
+  background: url("img/main_bg.jpg") no-repeat 50%/cover;
+  padding-top: 205px;
+}
+
+/* line 6, ../../../../../Desktop/my web page/src/sass/blocks/_promo.sass */
+.promo__subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.promo__subtitle::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_promo.sass */
+.promo__title {
+  width: 535px;
+  margin-top: 10px;
+}
+
+/* line 14, ../../../../../Desktop/my web page/src/sass/blocks/_promo.sass */
+.promo__btns {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+/* line 20, ../../../../../Desktop/my web page/src/sass/blocks/_promo.sass */
+.promo__link {
+  color: #000;
+  font-weight: bold;
+}
+
+/* line 23, ../../../../../Desktop/my web page/src/sass/blocks/_promo.sass */
+.promo__link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_title.sass */
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+}
+
+/* line 5, ../../../../../Desktop/my web page/src/sass/blocks/_title.sass */
+.title_fs14 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 8, ../../../../../Desktop/my web page/src/sass/blocks/_title.sass */
+.title_fs16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_title.sass */
+.title_fs20 {
+  font-size: 20px;
+}
+
+/* line 13, ../../../../../Desktop/my web page/src/sass/blocks/_title.sass */
+.title_fs36 {
+  font-size: 36px;
+}
+
+/* line 15, ../../../../../Desktop/my web page/src/sass/blocks/_title.sass */
+.title_fs40 {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_buttons.sass */
+.btn {
+  height: 45px;
+  background-color: #ffa601;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 12px 25px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_sidepanel.sass */
+.sidepanel {
+  position: fixed;
+  top: 230px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 340px;
+  z-index: 3;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_sidepanel.sass */
+.sidepanel__divider {
+  width: 2px;
+  height: 70px;
+  background-color: #000;
+}
+
+/* line 15, ../../../../../Desktop/my web page/src/sass/blocks/_sidepanel.sass */
+.sidepanel__text {
+  height: 150px;
+  width: 25px;
+}
+
+/* line 18, ../../../../../Desktop/my web page/src/sass/blocks/_sidepanel.sass */
+.sidepanel__text span {
+  transform: rotate(-90deg) translate(-30%, -260%);
+  display: block;
+  width: 150px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_hamburger.sass */
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_hamburger.sass */
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #151812;
+}
+
+/* line 16, ../../../../../Desktop/my web page/src/sass/blocks/_hamburger.sass */
+.hamburger span.long {
+  width: 36px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu.active {
+  left: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 15, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__block {
+  position: relative;
+  width: 340px;
+  height: 100%;
+  padding-top: 140px;
+  padding-left: 40px;
+  /** left: -100%  **/
+  background-color: #d8780b;
+  transition: all .6s;
+  z-index: 10;
+}
+
+/* line 25, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 34px;
+}
+
+/* line 31, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__list {
+  list-style-type: none;
+  padding-left: 35px;
+}
+
+/* line 36, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__link {
+  position: relative;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+
+/* line 42, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__link::before {
+  content: "";
+  position: absolute;
+  left: -35px;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  transition: all .5s;
+}
+
+/* line 53, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__link:hover::before {
+  background-color: #fff;
+}
+
+/* line 55, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 58, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__social {
+  position: absolute;
+  width: 90px;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 68, ../../../../../Desktop/my web page/src/sass/blocks/_menu.sass */
+.menu__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: .50;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about {
+  padding-top: 120px;
+}
+
+/* line 3, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__wrapper {
+  display: grid;
+  grid-template-columns: 400px 670px;
+  grid-template-rows: minmax(245px auto) minmax(255px auto);
+  grid-auto-rows: minmax(245px auto);
+  column-gap: 70px;
+  row-gap: 40px;
+}
+
+/* line 10, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__photo {
+  grid-row: 1 / 3;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 15, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__descr {
+  padding-top: 6px;
+}
+
+/* line 17, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__descr .divider {
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* line 21, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__subtitle {
+  margin-top: 20px;
+}
+
+/* line 23, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__title {
+  position: relative;
+  padding: 1px 0 0 12px;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.about__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 27, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__text {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 31, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__skills {
+  display: grid;
+  grid-template: repeat(2, minmax(115px, auto))/repeat(2, 260fr);
+  grid-auto-rows: 1fr;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+
+/* line 37, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__skills-item {
+  display: grid;
+  grid-template-columns: 40px 200px;
+  column-gap: 20px;
+}
+
+/* line 41, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__skills-circle {
+  position: relative;
+  padding: 5px 0 0 15px;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.about__skills-circle::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 46, ../../../../../Desktop/my web page/src/sass/blocks/_about.sass */
+.about__skills-text {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume {
+  padding-top: 120px;
+}
+
+/* line 3, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__title {
+  position: relative;
+  text-align: center;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.resume__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__title::before {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__subtitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 14, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__wrapper {
+  padding: 60px 65px 0 65px;
+  display: grid;
+  grid-template-columns: repeat(2, 435px);
+  column-gap: 135px;
+}
+
+/* line 19, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__column {
+  position: relative;
+}
+
+/* line 21, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__column-title {
+  position: relative;
+  padding-left: 35px;
+}
+
+/* line 24, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__column-title::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #ffa601;
+  border-radius: 100%;
+  left: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 35, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__column ul {
+  list-style-type: none;
+}
+
+/* line 37, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__column ul li {
+  position: relative;
+}
+
+/* line 39, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__column ul li::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: calc( 100% + 10px);
+  left: -7px;
+  top: -12px;
+  background-color: #000000;
+}
+
+/* line 47, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item {
+  position: relative;
+}
+
+/* line 49, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  background-color: #000000;
+  top: 68px;
+}
+
+/* line 56, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item-head {
+  padding: 45px 0 0 100px;
+}
+
+/* line 58, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item-head h4 {
+  margin-bottom: 0;
+}
+
+/* line 60, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item-body {
+  padding-left: 43px;
+  margin-top: 12px;
+  /** max-width: 400px **/
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 67, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item-icon {
+  position: absolute;
+  left: 45px;
+  top: 55px;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.resume__item-icon::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 72, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item-icon img {
+  position: absolute;
+  left: 17px;
+  top: 5px;
+}
+
+/* line 76, ../../../../../Desktop/my web page/src/sass/blocks/_resume.sass */
+.resume__item-location {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 4px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.card {
+  padding-top: 120px;
+}
+
+/* line 3, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.card__border {
+  width: 270px;
+  height: 270px;
+  border: 1px solid #000000;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.card__img {
+  padding: 25px 0 0 15px;
+}
+
+/* line 9, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.card__title {
+  padding: 10px 0 0 15px;
+}
+
+/* line 11, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.card__subtitle {
+  font-size: 15px;
+  padding: 3px 5px 3px 5px;
+}
+
+/* line 14, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.card__grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template: repeat(2, minmax(270px, auto))/repeat(4, 270px);
+  grid-auto-rows: minmax(270px, auto);
+  gap: 13px;
+}
+
+/* line 23, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car {
+  margin-top: 70px;
+  display: grid;
+  grid-template: repeat(2, 30px)/repeat(3, 330px);
+  column-gap: 45px;
+  row-gap: 35px;
+}
+
+/* line 31, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car__rating {
+  display: grid;
+  grid-template: minmax(21px, auto) 1px/200px 35px;
+}
+
+/* line 36, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car__site {
+  position: relative;
+  padding: 2px 0 0 13px;
+  line-height: 37px;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.car__site::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 41, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car__site::before {
+  top: 0px;
+}
+
+/* line 44, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car__persent {
+  font-size: 14px;
+}
+
+/* line 47, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car__line {
+  width: 350px;
+  height: 14px;
+  background-color: #E8E4DE;
+  border-radius: 4px;
+  grid-column: 1 / 3;
+}
+
+/* line 53, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.car__line span {
+  display: block;
+  height: 100%;
+  background-color: #ffa601;
+  border-radius: 4px;
+}
+
+/* line 58, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.c {
+  margin-top: 22px;
+}
+
+/* line 60, ../../../../../Desktop/my web page/src/sass/blocks/_card.sass */
+.s {
+  padding-bottom: 50px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio {
+  padding-top: 120px;
+}
+
+/* line 3, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__title {
+  text-align: center;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.portfolio__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 6, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__title::before {
+  top: 113px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 10, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__subtitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 13, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__wrapper {
+  margin-top: 60px;
+  display: grid;
+  grid-template: repeat(2, 280px)/repeat(4, 280px);
+  grid-auto-rows: 280px;
+  gap: 5px;
+}
+
+/* line 19, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__wrapper .vertical {
+  grid-row: 1 / 3;
+  grid-column: 4 / 5;
+}
+
+/* line 22, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__wrapper .horizonal {
+  grid-row: 2 / 3;
+  grid-column: 2 / 4;
+}
+
+/* line 26, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__item {
+  transition: all 0.6s;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 31, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__item img {
+  /** width: 100% **/
+}
+
+/* line 33, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.portfolio__item:hover {
+  transform: scale(1.05);
+}
+
+/* line 36, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.w {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 41, ../../../../../Desktop/my web page/src/sass/blocks/_portfolio.sass */
+.wei {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price {
+  padding-top: 120px;
+}
+
+/* line 3, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__title {
+  position: relative;
+  text-align: center;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.price__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__title::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 10, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__blog {
+  margin-top: 60px;
+  display: grid;
+  grid-template: repeat(2, 120px)/repeat(2, 590px);
+  column-gap: 50px;
+}
+
+/* line 15, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__list {
+  display: grid;
+  grid-template: repeat(2, minmax(17px, auto))/repeat(2, auto);
+}
+
+/* line 18, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__text {
+  position: relative;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.price__text::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 21, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__text::before {
+  left: -25px;
+  width: 15px;
+  height: 15px;
+  top: 4px;
+}
+
+/* line 26, ../../../../../Desktop/my web page/src/sass/blocks/_price.sass */
+.price__percent {
+  font-size: 17px;
+}
+
+/* line 1, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts {
+  padding: 120px 0 90px 0;
+  /**  height: 600px **/
+  /** width: 40px **/
+}
+
+/* line 3, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__photo {
+  /** grid-row: 1/3 **/
+}
+
+/* line 7, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__wrapper {
+  padding: 0 35px 0 52px;
+  display: grid;
+  grid-template-columns: 400px 585px;
+  justify-content: space-between;
+}
+
+/* line 12, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__descr {
+  padding-top: 6px;
+}
+
+/* line 14, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__descr .divider {
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* line 18, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__title {
+  margin-bottom: 20px;
+  position: relative;
+  padding: 1px 0 0 12px;
+}
+
+/* line 2, ../../../../../Desktop/my web page/src/sass/base/_mixins.sass */
+.contacts__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #ffa601;
+}
+
+/* line 23, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__text, .contacts__social {
+  margin-top: 20px;
+}
+
+/* line 25, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__link {
+  margin-right: 15px;
+}
+
+/* line 27, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__link img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/* line 30, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__form {
+  margin-top: 25px;
+  display: grid;
+  grid-template: 45px 190px 45px/repeat(2, 280px);
+  justify-content: space-between;
+  row-gap: 32px;
+}
+
+/* line 36, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__form label {
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  background-color: #fff;
+  top: -9px;
+  left: 12px;
+  padding: 0 8px;
+  height: 18px;
+}
+
+/* line 46, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__input {
+  position: relative;
+}
+
+/* line 48, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__input input {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+/* line 53, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__input label {
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  background-color: #fff;
+  top: -9px;
+  left: 12px;
+  padding: 0 8px;
+  height: 18px;
+}
+
+/* line 62, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__textarea {
+  position: relative;
+  margin-top: 30px;
+  grid-column: 1 / 3;
+}
+
+/* line 66, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__textarea textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 20px;
+  font-size: 12px;
+}
+
+/* line 72, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__btn {
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 77, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__triggers {
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 220px 370px;
+  column-gap: 25px;
+  align-items: center;
+}
+
+/* line 83, ../../../../../Desktop/my web page/src/sass/blocks/_contacts.sass */
+.contacts__policy {
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+}
+
+@media (max-width: 1439px) {
+  /* line 2, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .sidepanel {
+    display: none;
+  }
+  /* line 5, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .price__blog {
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* line 10, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .container {
+    max-width: 960px;
+  }
+  /* line 13, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__wrapper {
+    grid-template-columns: 400px 520px;
+    column-gap: 40px;
+  }
+  /* line 16, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills {
+    column-gap: 20px;
+    grid-template: repeat(2, minmax(115px, auto))/repeat(2, 250px);
+  }
+  /* line 19, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills-item {
+    grid-template-columns: 40px 195px;
+    column-gap: 15px;
+  }
+  /* line 23, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__wrapper {
+    padding: 0;
+    grid-template-columns: 400px 520px;
+  }
+  /* line 26, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__form {
+    grid-template: 45px 190px 45px/repeat(2, 250px);
+  }
+  /* line 31, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .card__grid {
+    grid-template-columns: repeat(3, 300px);
+  }
+  /* line 33, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .car {
+    grid-template: repeat(2, 50px)/repeat(2, 430px);
+    column-gap: 120px;
+  }
+  /* line 40, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 430px);
+    column-gap: 80px;
+    padding: 10px 10px 10px 10px;
+  }
+  /* line 48, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .portfolio__wrapper {
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-auto-rows: 280px;
+    justify-content: space-around;
+    row-gap: 20px;
+  }
+  /* line 53, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .portfolio__wrapper .horizonal {
+    grid-row: unset;
+    grid-column: unset;
+  }
+  /* line 56, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .portfolio__wrapper .vertical {
+    grid-row: unset;
+    grid-column: unset;
+  }
+  /* line 60, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .price__blog {
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 66, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .container {
+    max-width: 720px;
+  }
+  /* line 69, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .title_fs36 {
+    font-size: 30px;
+  }
+  /* line 72, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__wrapper {
+    grid-template-columns: 300px 380px;
+  }
+  /* line 74, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills {
+    grid-template-columns: 380px;
+    grid-auto-rows: minmax(115px, auto);
+  }
+  /* line 77, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills-item {
+    grid-template-columns: 40px 320px;
+    column-gap: 20px;
+  }
+  /* line 83, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .card__grid {
+    grid-template-columns: repeat(3, 200px);
+    column-gap: 25px;
+  }
+  /* line 86, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .card__border {
+    height: 270px;
+    width: 220px;
+    border: 1px solid #000000;
+  }
+  /* line 90, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .card__subtitle {
+    font-size: 12px;
+  }
+  /* line 92, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .car {
+    grid-template: repeat(2, 30px)/repeat(2, 270px);
+  }
+  /* line 96, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__wrapper {
+    grid-template-columns: repeat(2, 250px);
+    column-gap: 170px;
+  }
+  /* line 100, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__item-body {
+    font-size: 12px;
+  }
+  /* line 103, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .price__blog {
+    grid-template-columns: repeat(auto-fit, 500px);
+    justify-content: center;
+  }
+  /* line 109, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__wrapper {
+    padding: 0;
+    grid-template-columns: 300px 400px;
+  }
+  /* line 112, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__form {
+    grid-template: 45px 190px 45px/repeat(2, 195px);
+  }
+  /* line 114, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__btn {
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 117, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .container {
+    max-width: 540px;
+  }
+  /* line 119, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .title {
+    line-height: 39px;
+  }
+  /* line 121, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .title fs_40 {
+    font-size: 28px;
+  }
+  /* line 124, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .promo__title {
+    width: 300px;
+  }
+  /* line 126, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about {
+    padding-top: 40px;
+  }
+  /* line 128, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__wrapper {
+    grid-template: 400px auto auto / 1fr;
+  }
+  /* line 130, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__photo {
+    grid-row: unset;
+  }
+  /* line 132, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills {
+    grid-template-columns: repeat(2, 260px);
+  }
+  /* line 134, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills-item {
+    grid-template-columns: 40px 200px;
+    column-gap: 20px;
+  }
+  /* line 139, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .card__grid {
+    grid-template-columns: repeat(2, 260px);
+  }
+  /* line 141, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .car {
+    grid-template: repeat(2, 30px)/500px;
+    padding-left: 50px;
+  }
+  /* line 146, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__wrapper {
+    grid-template-columns: 540px;
+  }
+  /* line 149, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__item-body {
+    font-size: 12px;
+  }
+  /* line 153, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__wrapper {
+    padding: 0;
+    grid-template-columns: 550px;
+  }
+  /* line 156, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__title {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 162, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  /* line 166, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .title fs_40 {
+    font-size: 26px;
+  }
+  /* line 168, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .title fs_36 {
+    font-size: 24px;
+  }
+  /* line 170, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .promo {
+    background: url("../img/main_bg.jpg") no-repeat 59%/cover;
+  }
+  /* line 172, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .promo__btns {
+    margin-top: 30px;
+  }
+  /* line 174, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .hamburger {
+    right: 20px;
+  }
+  /* line 177, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .menu__block {
+    width: 250px;
+    padding-left: 20px;
+  }
+  /* line 181, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__wrapper {
+    grid-template: 340px auto auto / 1fr;
+  }
+  /* line 184, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .about__skills {
+    grid-template-columns: 1fr;
+  }
+  /* line 188, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .card__grid {
+    grid-template-columns: 300px;
+    padding-left: 50px;
+  }
+  /* line 191, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .car {
+    grid-template-columns: 300px;
+    padding-left: 10px;
+  }
+  /* line 194, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .car__line {
+    width: 250px;
+  }
+  /* line 198, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__wrapper {
+    grid-template-columns: 300px;
+  }
+  /* line 201, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .resume__item-body {
+    font-size: 14px;
+  }
+  /* line 204, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .price__blog {
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
+    grid-template: minmax(1px, auto) 100px/250px;
+  }
+  /* line 208, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .price__paragraph {
+    font-size: 11px;
+  }
+  /* line 210, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .price__percent {
+    font-size: 12px;
+  }
+  /* line 213, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__wrapper {
+    padding: 0;
+    grid-template-columns: 300px;
+  }
+  /* line 216, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__form {
+    grid-template-columns: repeat(2, 140px);
+  }
+  /* line 218, ../../../../../Desktop/my web page/src/sass/blocks/_media.sass */
+  .contacts__title {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
